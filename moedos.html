@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--name="viewport" definerer viewport-informationen-->
+    <!--width=device-width definerer bredden på viewporten by default, så den tilpasses enhedens størrelse (responsiv).-->
+    <!--initial-scale siden vises i 1px format, når den åbens-->
+    <meta name="robots" content="noindex">
+    <!--Sitet er ikke timeldt google-->
+    <link rel="stylesheet" href="style.css">
+    <!--fortæller browseren er linket er et stylesheet-->
+    <!--href angiver stien til css-dokumentet-->
+    <title>Lind Old Boys - Mød os</title>
+</head>
+
+<body class="moedos">
+    <header>
+        <nav id="hamburgermenumoedos">
+            <div class="altindhold">
+                <div class="logo">
+                    <a href="index.html"> <img src="/img/logo.webp" alt="Logo for Lind Old Boys"></a>
+                    <!--Indsat logo med link til forsiden-->
+                    <!--Alt refererer tilgengælighed-->
+                </div>
+                <!-- Hamburgermenu er lavet med inpspiration fra https://www.youtube.com/watch?v=4996fn82c4c -->
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger">
+                <div id="links">
+                    <a href="arrangementer.html">Arrangementer</a>
+                    <a href="nyheder.html">Nyheder</a>
+                    <a href="sport.html">Sport</a>
+                    <div class="dropdown">
+                        <a href="info.html">Info</a>
+                        <div class="dropdown-content-links">
+                            <a href="faciliteter.html">Faciliteter</a>
+                            <a href="vedtaegter.html">Vedtægter</a>
+                            <a href="privatliv.html">Privatlivspolitik</a>
+                        </div>
+                    </div>
+                    <a href="trehalvleg.html">3. Halvleg</a>
+                    <div class="dropdown">
+                        <a href="kontakt.html">Kontakt</a>
+                        <div class="dropdown-content-links">
+                            <a href="moedos.html"><u>Mød os</u></a>
+                        </div>
+                    </div>
+                    <a href="blivmedlem.html" class="blivmedlemmenuknapet"><b>Bliv medlem</b></a>
+                </div>
+                <!-- Drop down menuer er lavet med inspiration fra: https://chat.openai.com/share/d9c16c72-79b4-40f5-9b4a-a8ff7cbccf93 -->
+                <div id="links-desktop">
+                    <a href="arrangementer.html">Arrangementer</a>
+                    <a href="nyheder.html">Nyheder</a>
+                    <a href="sport.html">Sport</a>
+                    <div class="dropdown">
+                        <a href="info.html">Info</a>
+                        <div class="dropdown-content">
+                            <a href="faciliteter.html">Faciliteter</a>
+                            <a href="vedtaegter.html">Vedtægter</a>
+                            <a href="privatliv.html">Privatlivspolitik</a>
+                        </div>
+                    </div>
+                    <a href="trehalvleg.html">3. Halvleg</a>
+                    <div class="dropdown">
+                        <a href="kontakt.html">Kontakt</a>
+                        <div class="dropdown-content">
+                            <a href="moedos.html"><u>Mød os</u></a>
+                        </div>
+                    </div>
+                    <a href="blivmedlem.html" class="blivmedlemknapnavbar">Bliv medlem</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Indsætter stemningsbillede-->
+    <div class="baggrundsbilledemoedos"></div>
+    <!--alt: "Sammenhold mellem fodboldspillere"-->
+    <!--Credit: https://www.freepik.com/free-photo/high-angle-men-soccer-field_42247539.htm#page=2&position=33&from_view=collections&uuid=554adb14-f6ef-4c05-a6d6-812802693d73 -->
+
+    <!--Indsætter video og information på medlemmer i foreningen-->
+    <h1 class="moedostitel">Holdet</h1>
+
+    <div class="container-moedos">
+        <div class="itemmoedos">
+            <img class="moedosvideo" src="img/video.webp" alt="Blank video">
+            <p class="videonavn">Klaus, 44 år</p>
+            <p class="videosport">Løb</p>
+        </div>
+        <div class="itemmoedos">
+            <img class="moedosvideo" src="img/video.webp" alt="Blank video">
+            <p class="videonavn">Mogens, 53 år</p>
+            <p class="videosport">Volley</p>
+        </div>
+        <div class="itemmoedos">
+            <img class="moedosvideo" src="img/video.webp" alt="Blank video">
+            <p class="videonavn">Jørgen, 69 år</p>
+            <p class="videosport">Badminton</p>
+        </div>
+        <div class="itemmoedos">
+            <img class="moedosvideo" src="img/video.webp" alt="Blank video">
+            <p class="videonavn">Hans, 64 år</p>
+            <p class="videosport">Motion</p>
+        </div>
+        <div class="itemmoedos">
+            <img class="moedosvideo" src="img/video.webp" alt="Blank video">
+            <p class="videonavn">Anders, 37 år</p>
+            <p class="videosport">Fodbold</p>
+        </div>
+        <div class="itemmoedos">
+            <!--Knap der linker til bliv medlem siden-->
+            <p class="moedoskommed">Kom med på holdet!</p>
+            <div class="container-moedosknap"><a href="blivmedlem.html" class="moedosblivmedlemknap">Bliv medlem</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="moedosfooter">
+        <div class="container-footer">
+            <!--Vi laver en container til alle footer elementerne så vi kan sætte flex og wrap på i css-->
+            <div class="itemfooter">
+                <p><strong>Lind Old Boys</strong></p><!--teksten er gjort bold-->
+                <p>Ingridsvej 126</p>
+                <p>7400 Herning</p>
+                <br>
+                <br>
+                <p>Tlf. 97 21 38 40</p>
+                <p><u>mail.lob@gmail.com</u></p>
+                <!--Denne tekst er understreget via tagget u-->
+            </div>
+            <div class="itemfooter">
+                <p><strong>Lind øvrige foreningsliv</strong></p><!--teksten er gjort bold-->
+                <a href="https://www.lindoldgirls.dk">
+                    <p><u>lindoldgirl</u></p>
+                </a><!--Der er indsat link til lind old girls via a href. og så er teksten understreget for at få sammenhæng ml. understregning og tekst (understregningen bliver samme farve)-->
+                <a href="http://www.lindborger.dk">
+                    <p><u>lindborger</u></p>
+                </a>
+                <a href="https://alpihallerne.dk">
+                    <p><u>alpihallerne</u></p>
+                </a>
+                <a href="https://desmaaklinger.dk">
+                    <p><u>desmaaklinger</u></p>
+                </a>
+            </div>
+            <div class="itemfooter">
+                <p><strong>Følg med i hvad der sker på</strong></p><!--teksten er gjort bold-->
+                <a href="nyheder.html">
+                    <p><u>Nyheder</u></p>
+                </a><!--Der er linket til nyheder siden-->
+                <br>
+                <p><strong>Vilkår og betingelser</strong></p><!--teksten er gjort bold-->
+                <a href="vedtaegter.html">
+                    <p><u>Vedtægter</u></p>
+                </a>
+                <a href="privatliv.html">
+                    <p><u>Privatlivspolitik</u></p>
+                </a>
+            </div>
+        </div>
+        <div class="undervisningsformaal">Dette site er kun til undervisningsformål</div>
+        <a href="a.html"><img class="footerlogo" src="img/logo.webp"
+                alt="Logo for Lind Old Boys"></a><!--indsat logo, med link på så når man trykker kommer man til forsiden-->
+    </footer>
+</body>

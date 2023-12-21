@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--name="viewport" definerer viewport-informationen-->
+    <!--width=device-width definerer bredden på viewporten by default, så den tilpasses enhedens størrelse (responsiv).-->
+    <!--initial-scale siden vises i 1px format, når den åbens-->
+    <meta name="robots" content="noindex">
+    <!--Sitet er ikke timeldt google-->
+    <link rel="stylesheet" href="style.css">
+    <!--fortæller browseren er linket er et stylesheet-->
+    <!--href angiver stien til css-dokumentet-->
+    <title>Lind Old Boys - Nyheder</title>
+</head>
+
+<body>
+    <header>
+        <nav id="hamburgermenunyheder">
+            <div class="altindhold">
+                <div class="logo">
+                    <a href="index.html"> <img src="/img/logo.webp" alt="Logo for Lind Old Boys"></a>
+                    <!--Indsat logo med link til forsiden-->
+                    <!--Alt refererer tilgengælighed-->
+                </div>
+                <!-- Hamburgermenu er lavet med inpspiration fra https://www.youtube.com/watch?v=4996fn82c4c -->
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger">
+                <div id="links">
+                    <a href="arrangementer.html">Arrangementer</a>
+                    <a href="nyheder.html"><u>Nyheder</u></a>
+                    <a href="sport.html">Sport</a>
+                    <div class="dropdown">
+                        <a href="info.html">Info</a>
+                        <div class="dropdown-content-links">
+                            <a href="faciliteter.html">Faciliteter</a>
+                            <a href="vedtaegter.html">Vedtægter</a>
+                            <a href="privatliv.html">Privatlivspolitik</a>
+                        </div>
+                    </div>
+                    <a href="trehalvleg.html">3. Halvleg</a>
+                    <div class="dropdown">
+                        <a href="kontakt.html">Kontakt</a>
+                        <div class="dropdown-content-links">
+                            <a href="moedos.html">Mød os</a>
+                        </div>
+                    </div>
+                    <a href="blivmedlem.html" class="blivmedlemmenuknapet"><b>Bliv medlem</b></a>
+                </div>
+                <!-- Drop down menuer er lavet med inspiration fra: https://chat.openai.com/share/d9c16c72-79b4-40f5-9b4a-a8ff7cbccf93 -->
+                <div id="links-desktop">
+                    <a href="arrangementer.html">Arrangementer</a>
+                    <a href="nyheder.html"><u>Nyheder</u></a>
+                    <a href="sport.html">Sport</a>
+                    <div class="dropdown">
+                        <a href="info.html">Info</a>
+                        <div class="dropdown-content">
+                            <a href="faciliteter.html">Faciliteter</a>
+                            <a href="vedtaegter.html">Vedtægter</a>
+                            <a href="privatliv.html">Privatlivspolitik</a>
+                        </div>
+                    </div>
+                    <a href="trehalvleg.html">3. Halvleg</a>
+                    <div class="dropdown">
+                        <a href="kontakt.html">Kontakt</a>
+                        <div class="dropdown-content">
+                            <a href="moedos.html">Mød os</a>
+                        </div>
+                    </div>
+                    <a href="blivmedlem.html" class="blivmedlemknapnavbar">Bliv medlem</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Indsæter galleri med nyheder-->
+    <h1 class="nyhedsidetitel">Nyheder</h1>
+    <div class="nyhedercontainer">
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Lind Old Boys får ny hjemmeside</p>
+            <a href="nyhedunderside.html"><img src="/img/logo.webp" alt="Logo for Lind Old Boys"></a>
+            <!--her er der sat link på billedet, så når man trykker på nyheden navigere man til den uddybbende side for nyheden-->
+            <div class="nyheddato">
+                <p>22.12.2023</p>
+            </div>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Bowlingmesterskab</p>
+            <img src="/img/Mændhighfive.webp" alt="Mænd der giver high five i bowlinghal">
+            <!--Credit: https://www.freepik.com/free-photo/young-men-standing-bowling-club_5953335.htm -->
+            <div class="nyheddato">
+                <p>26.10.2023</p>
+            </div>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Fodbold rykker indendørs i hal 2</p>
+            <img src="/img/mændspillerfodbold.webp"
+                alt="To mænd der løber efter en fodbold under en udendørs fodboldkamp">
+            <!--Credit: https://unsplash.com/photos/group-of-men-playing-soccer-GC7WSxGWL7c -->
+            <p class="nyheddato">24.10.2023</p>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Billiardbord og -aften i klubhuset</p>
+            <img src="/img/mandderspillerbilliard.webp" alt="Mand der spiller billiard med mennesker omkring sig">
+            <!--Credit: https://www.freepik.com/free-photo/close-up-shot-man-playing-billiard_12494552.htm#query=close%20up%20man%20playing%20biliard&position=0&from_view=search&track=ais&uuid=f287efe4-87a5-453f-9e69-b872f9ccbcfc-->
+            <p class="nyheddato">28.09.2023</p>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Grillarrangement ved Sunds Sø</p>
+            <img src="/img/Mændvedgrill.webp" alt="To mænd der hygger sig ved en grill og drikker øl">
+            <!--Credit: https://www.freepik.com/free-photo/young-men-roasting-barbecue-grill-cottage-countryside_7598888.htm#from_view=detail_alsolike -->
+            <p class="nyheddato">11.09.2023</p>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Repræsentanter til Herningløbet</p>
+            <img src="/img/Mændtilløb.webp" alt="To mænd til løb">
+            <!--Credit: https://www.freepik.com/free-photo/exhausted-senior-runner-park_2895072.htm#query=elderly%20men%20running%20marathon&position=34&from_view=search&track=ais&uuid=38fdd153-6878-4944-9866-365ebc553b22 -->
+            <p class="nyheddato">30.08.2023</p>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">FCM vs FCK</p>
+            <img src="/img/fodboldpaastadion.webp" alt="Mænd på stadion ser fodboldkamp">
+            <!--Credit: https://unsplash.com/photos/people-watching-soccer-arena-qowyMze7jqg -->
+            <p class="nyheddato">10.08.2023</p>
+        </div>
+        <div class="itemnyhed">
+            <p class="nyhedoverskrift">Bingoaften i LOBbyen</p>
+            <img src="/img/Mændderspillerbingo.webp" alt="Mænd der spiller bingo">
+            <!--Credit: https://www.freepik.com/free-photo/happy-people-playing-bingo-medium-shot_20825670.htm#&position=35&from_view=collections&uuid=ec6917dd-88da-4aaa-8e58-7f54d4543a9a -->
+            <p class="nyheddato">02.08.2023</p>
+        </div>
+    </div>
+    <div class="sidetal"><strong>1</strong>2</div>
+
+    <footer>
+        <div class="container-footer">
+            <!--Vi laver en container til alle footer elementerne så vi kan sætte flex og wrap på i css-->
+            <div class="itemfooter">
+                <p><strong>Lind Old Boys</strong></p><!--teksten er gjort bold-->
+                <p>Ingridsvej 126</p>
+                <p>7400 Herning</p>
+                <br>
+                <br>
+                <p>Tlf. 97 21 38 40</p>
+                <p><u>mail.lob@gmail.com</u></p>
+                <!--Denne tekst er understreget via tagget u-->
+            </div>
+            <div class="itemfooter">
+                <p><strong>Lind øvrige foreningsliv</strong></p><!--teksten er gjort bold-->
+                <a href="https://www.lindoldgirls.dk">
+                    <p><u>lindoldgirl</u></p>
+                </a><!--Der er indsat link til lind old girls via a href. og så er teksten understreget for at få sammenhæng ml. understregning og tekst (understregningen bliver samme farve)-->
+                <a href="http://www.lindborger.dk">
+                    <p><u>lindborger</u></p>
+                </a>
+                <a href="https://alpihallerne.dk">
+                    <p><u>alpihallerne</u></p>
+                </a>
+                <a href="https://desmaaklinger.dk">
+                    <p><u>desmaaklinger</u></p>
+                </a>
+            </div>
+            <div class="itemfooter">
+                <p><strong>Følg med i hvad der sker på</strong></p><!--teksten er gjort bold-->
+                <a href="nyheder.html">
+                    <p><u>Nyheder</u></p>
+                </a><!--Der er linket til nyheder siden-->
+                <br>
+                <p><strong>Vilkår og betingelser</strong></p><!--teksten er gjort bold-->
+                <a href="vedtaegter.html">
+                    <p><u>Vedtægter</u></p>
+                </a>
+                <a href="privatliv.html">
+                    <p><u>Privatlivspolitik</u></p>
+                </a>
+            </div>
+        </div>
+        <div class="undervisningsformaal">Dette site er kun til undervisningsformål</div>
+        <a href="a.html"><img class="footerlogo" src="img/logo.webp"
+                alt="Logo for Lind Old Boys"></a><!--indsat logo, med link på så når man trykker kommer man til forsiden-->
+    </footer>
+</body>
+
+</html>

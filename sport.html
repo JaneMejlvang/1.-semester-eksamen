@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--name="viewport" definerer viewport-informationen-->
+    <!--width=device-width definerer bredden på viewporten by default, så den tilpasses enhedens størrelse (responsiv).-->
+    <!--initial-scale siden vises i 1px format, når den åbens-->
+    <meta name="robots" content="noindex">
+    <!--Sitet er ikke timeldt google-->
+    <link rel="stylesheet" href="style.css">
+    <!--fortæller browseren er linket er et stylesheet-->
+    <!--href angiver stien til css-dokumentet-->
+    <title>Lind Old Boys - Sport</title>
+</head>
+
+<body>
+    <header>
+        <nav id="hamburgermenusport">
+            <div class="altindhold">
+                <div class="logo">
+                    <a href="index.html"> <img src="/img/logo.webp" alt="Logo for Lind Old Boys"></a>
+                    <!--Indsat logo med link til forsiden-->
+                    <!--Alt refererer tilgengælighed-->
+                </div>
+                <!-- Hamburgermenu er lavet med inpspiration fra https://www.youtube.com/watch?v=4996fn82c4c -->
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger">
+                <div id="links">
+                    <a href="arrangementer.html">Arrangementer</a>
+                    <a href="nyheder.html">Nyheder</a>
+                    <a href="sport.html"><u>Sport</u></a>
+                    <div class="dropdown">
+                        <a href="info.html">Info</a>
+                        <div class="dropdown-content-links">
+                            <a href="faciliteter.html">Faciliteter</a>
+                            <a href="vedtaegter.html">Vedtægter</a>
+                            <a href="privatliv.html">Privatlivspolitik</a>
+                        </div>
+                    </div>
+                    <a href="trehalvleg.html">3. Halvleg</a>
+                    <div class="dropdown">
+                        <a href="kontakt.html">Kontakt</a>
+                        <div class="dropdown-content-links">
+                            <a href="moedos.html">Mød os</a>
+                        </div>
+                    </div>
+                    <a href="blivmedlem.html" class="blivmedlemmenuknapet"><b>Bliv medlem</b></a>
+                </div>
+                <!-- Drop down menuer er lavet med inspiration fra: https://chat.openai.com/share/d9c16c72-79b4-40f5-9b4a-a8ff7cbccf93 -->
+                <div id="links-desktop">
+                    <a href="arrangementer.html">Arrangementer</a>
+                    <a href="nyheder.html">Nyheder</a>
+                    <a href="sport.html"><u>Sport</u></a>
+                    <div class="dropdown">
+                        <a href="info.html">Info</a>
+                        <div class="dropdown-content">
+                            <a href="faciliteter.html">Faciliteter</a>
+                            <a href="vedtaegter.html">Vedtægter</a>
+                            <a href="privatliv.html">Privatlivspolitik</a>
+                        </div>
+                    </div>
+                    <a href="trehalvleg.html">3. Halvleg</a>
+                    <div class="dropdown">
+                        <a href="kontakt.html">Kontakt</a>
+                        <div class="dropdown-content">
+                            <a href="moedos.html">Mød os</a>
+                        </div>
+                    </div>
+                    <a href="blivmedlem.html" class="blivmedlemknapnavbar">Bliv medlem</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Indsætter sektion med sportsaktiviteter-->
+    <h1 class="sporttitel">Sportsaktiviteter</h1>
+
+    <!--Indsætter billeder med sportsgrene-->
+    <div class="sportsgrene">
+        <div class="container-sport">
+            <div class="itemsport">
+                <a href="#loeb" class="sportbilledeoverskrift">Løb</a>
+                <a href="#loeb"><img class="loebet" src="img/loeb.webp"
+                        alt="Ældre mand der løber en frisk tur Credit:https://www.freepik.com/free-photo/happy-senior-sportsman-feeling-motivated-while-listening-music-running-nature-copy-space_25855658.htm?query=elderly%20running#from_view=detail_alsolike"></a>
+            </div>
+            <div class="itemsport">
+                <a href="#volley" class="sportbilledeoverskrift">Volley</a>
+                <a href="#volley"><img src="img/volley.webp"
+                        alt="Fyr er igang med at spille volley, bolden er i luften Credit:https://unsplash.com/photos/a-person-playing-basketball-ZWVNmbPr1FA"></a>
+            </div>
+        </div>
+        <div class="container-sport">
+            <div class="itemsport">
+                <a href="#badminton" class="sportbilledeoverskrift">Badminton</a>
+                <a href="#badminton"><img src="img/badminton.webp"
+                        alt="Glad fyr skal til at serve i badminton Credit:https://www.freepik.com/free-photo/smiley-man-playing-badminton-side-view_32408552.htm#&position=19&from_view=collections&uuid=3a1156e1-3521-4807-a3e8-dead166ebea6"></a>
+            </div>
+            <div class="itemsport">
+                <a href="#motion" class="sportbilledeoverskrift">Motion</a>
+                <a href="#motion"><img src="img/motion.webp"
+                        alt="Ældre man dyrker motion i fitness lokale Credit:https://www.freepik.com/free-photo/healthcare-age-retirement-rehabilitation-concept-muscular-fit-seventy-year-old-unshaven-man-sportswear-doing-plank-gym-senior-male-planking-during-morning-workout-fitness-center_10897428.htm#page=2&query=elderly%20men%20gym&position=21&from_view=search&track=ais&uuid=65d359ad-5c75-4023-ac7e-ffa0f3d7409b"></a>
+            </div>
+        </div>
+        <div class="container-sport">
+            <div class="itemsport">
+                <a href="#fodboldu" class="sportbilledeoverskrift">Fodbold</a>
+                <a href="#fodboldu"><img src="img/fodbold.webp"
+                        alt="To fyre er igang med en intens fodboldkamp Credit:https://unsplash.com/photos/man-in-blue-and-white-soccer-jersey-kicking-ball-on-green-grass-field-during-daytime-xtRWIviknsw"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Indsætter information om sportsgrene i bokse-->
+    <div id="loeb">
+        <div class="container-loeb">
+            <p class="sportsgrenoverskrift">Løb</p>
+            <div class="sportsgrenbroedtekst">
+                <p><strong>Hvornår:</strong> Søndag kl. 10 </p><!--en del af teksten gøres bold-->
+                <p><strong>Hvor:</strong> Hal 2 Ingridsvej 126, 7400 Herning</p><!--en del af teksten gøres bold-->
+                <p><strong>Hvad:</strong> Alle er velkomne i LOBs løbeklub. Der løbes, og enkelte nøjes med at gå i
+                    omegnen
+                    af Lind og Rind. Vi mødes omklædte. Ruternes længde og løbeturens hastighed bestemmes ved start.</p>
+                <p>Lyder løb som noget for dig? Så kontakt Søren for mere
+                    information.</p><!--en del af teksten gøres bold-->
+            </div>
+            <div class="sportsgrenmere">
+                <p class="sportsgrenkontaktperson">
+                    <strong>Kontaktperson</strong><!--teksten gøres bold-->
+                    <br>
+                    Søren Ankerstjerne
+                    <br>
+                    Knudmoseparken 147, Lind
+                    <br>
+                    7400 Herning
+                    <br>
+                    Tlf. 20 73 17 77
+                </p>
+                <div class="sporttilmeld">
+                    <p class="sportkommed"><strong>Bliv en del af foreningen!</strong></p>
+                    <a href="blivmedlem.html" class="sportblivmedlemknap">Bliv medlem</a>
+                </div>
+                <!--Knap der linker til bliv medlem siden-->
+            </div>
+        </div>
+    </div>
+
+    <div id="volley">
+        <div class="container-volley">
+            <p class="sportsgrenoverskrift">Volley</p>
+            <div class="sportsgrenbroedtekst">
+                <p><strong>Hvornår:</strong> Onsdag kl. 18.30 - 20 </p><!--en del af teksten gøres bold-->
+                <p><strong>Hvor:</strong> Hal 2 Ingridsvej 126, 7400 Herning</p><!--en del af teksten gøres bold-->
+                <p><strong>Hvad:</strong> Alle er velkomne på LOBs volleyhold. Det er et tilbud til dig der er
+                    nybegynder
+                    eller let øvet, eller som ønsker at være aktiv sammen med andre. Opstart d. 6. september 2023.</p>
+                <p>Lyder volley som noget for dig? Så kontakt Karl for mere
+                    information.</p><!--en del af teksten gøres bold-->
+            </div>
+            <div class="sportsgrenmere">
+                <p class="sportsgrenkontaktperson">
+                    <strong>Kontaktperson</strong><!--teksten gøres bold-->
+                    <br>
+                    Karl Jørgen Nielsen (Kalle)
+                    <br>
+                    Tlf. 23 35 35 53
+                    <br>
+                    Mail karljytte@hotmail.com
+                </p>
+                <div class="sporttilmeld">
+                    <p class="sportkommed"><strong>Bliv en del af foreningen!</strong></p>
+                    <a href="blivmedlem.html" class="sportblivmedlemknap">Bliv medlem</a>
+                </div>
+                <!--Knap der linker til bliv medlem siden-->
+            </div>
+        </div>
+    </div>
+
+    <div id="badminton">
+        <div class="container-badminton">
+            <p class="sportsgrenoverskrift">Badminton</p>
+            <div class="sportsgrenbroedtekst">
+                <p><strong>Hvornår:</strong> Mandag kl. 19 - 21</p><!--en del af teksten gøres bold-->
+                <p><strong>Hvor:</strong> Højgårdskolen Ingridsvej 2, 7400 Herning </p>
+                <!--en del af teksten gøres bold-->
+                <p><strong>Hvad:</strong> Foretrækker du også at være aktiv med andre, så er dette holdet for dig. Alle
+                    kan
+                    være med. Det er et tilbud til dig, som er nybegynder eller let øvet.</p>
+                <p>Lyder badminton som lige noget for dig? Så kontakt Bent for mere
+                    information.</p><!--en del af teksten gøres bold-->
+            </div>
+            <div class="sportsgrenmere">
+                <p class="sportsgrenkontaktperson">
+                    <strong>Kontaktperson</strong><!--teksten gøres bold-->
+                    <br>
+                    Bent Christensen
+                    <br>
+                    Fejerskovparken, Lind
+                    <br>
+                    7400 Herning
+                    <br>
+                    Tlf. 21 58 41 72
+                    <br>
+                    Mail btc1950@hotmail.com
+                </p>
+                <div class="sporttilmeld">
+                    <p class="sportkommed"><strong>Bliv en del af foreningen!</strong></p>
+                    <a href="blivmedlem.html" class="sportblivmedlemknap">Bliv medlem</a>
+                </div>
+                <!--Knap der linker til bliv medlem siden-->
+            </div>
+        </div>
+    </div>
+
+    <div id="motion">
+        <div class="container-motion">
+            <p class="sportsgrenoverskrift">Motion</p>
+            <div class="sportsgrenbroedtekst">
+                <p><strong>Hvornår:</strong> mandag, onsdag og fredag mellem kl. 8 og 10</p>
+                <!--en del af teksten gøres bold-->
+                <p><strong>Hvor:</strong> Alpi Hallernes Fitnesscenter, Ingridsvej 126, 7400</p>
+                Herning<!--en del af teksten gøres bold-->
+                <p><strong>Hvad:</strong> Bliv en del af et svedigt fællesskab. Vi mødes til motion i Alpi Hallernes
+                    Fitnesscenter. Efter veludført træning, tørres sveden af panden i LOByen, og fælleskaffe m.v. nydes.
+                    Pris 100 kr/mdr.</p>
+                <p>Lyder motion som lige noget for dig? Så kontakt Bent for mere
+                    information.</p><!--en del af teksten gøres bold-->
+            </div>
+            <div class="sportsgrenmere">
+                <p class="sportsgrenkontaktperson">
+                    <strong>Kontaktperson</strong><!--teksten gøres bold-->
+                    <br>
+                    Bent Damsgaard
+                    <br>
+                    Tlf. 26 27 79 65
+                    <br>
+                    Mail bldamsgaard@gmail.com
+                </p>
+                <div class="sporttilmeld">
+                    <p class="sportkommed"><strong>Bliv en del af foreningen!</strong></p>
+                    <a href="blivmedlem.html" class="sportblivmedlemknap">Bliv medlem</a>
+                </div>
+                <!--Knap der linker til bliv medlem siden-->
+            </div>
+        </div>
+    </div>
+
+    <div id="fodboldu">
+        <div class="container-fodboldu">
+            <p class="sportsgrenoverskrift">Fodbold udendørs</p>
+            <div class="sportsgrenbroedtekst">
+                <p><strong>Hvornår:</strong> Tirsdag kl. 20 - 22</p> <!--en del af teksten gøres bold-->
+                <p><strong>Hvor:</strong> Udendørs fodboldbane, Ingridsvej 126, 7400 Herning</p>
+                <!--en del af teksten gøres bold-->
+                <p><strong>Hvad:</strong> Alle er velkomne på LOBs fodboldhold. LOB er tilmeldt udendørs
+                    fodboldturnering
+                    ved DGI. Pris 700 kr/år. Til turneringen er tilmeldt to hold:</p>
+                <ul class="fodboldhold">
+                    <li class="fodboldhold">Old boys: 11 mands - fyldt 30 år</li>
+                    <li class="fodboldhold">Senior old boys - 11 mands fyldt 40 år</li>
+                </ul>
+                <p>Lyder fodbold som lige noget for dig? Så kontakt Allan for mere information.</p>
+                <!--en del af teksten gøres bold-->
+            </div>
+            <div class="sportsgrenmere">
+                <p class="sportsgrenkontaktperson">
+                    <strong>Kontaktperson</strong><!--teksten gøres bold-->
+                    <br>
+                    Allan Thomsen
+                    <br>
+                    Tlf. 41 74 16 79
+                    <br>
+                    Mail ath@jysk.com
+                </p>
+                <div class="sporttilmeld">
+                    <p class="sportkommed"><strong>Bliv en del af foreningen!</strong></p>
+                    <a href="blivmedlem.html" class="sportblivmedlemknap">Bliv medlem</a>
+                </div>
+                <!--Knap der linker til bliv medlem siden-->
+            </div>
+        </div>
+    </div>
+
+    <div class="fodboldi">
+        <div class="container-fodboldi">
+            <p class="sportsgrenoverskrift">Fodbold udendørs</p>
+            <div class="sportsgrenbroedtekst">
+                <p><strong>Hvornår:</strong> Tirsdag kl. 20 - 22</p> <!--en del af teksten gøres bold-->
+                <p><strong>Hvor:</strong> Hal 2 Ingridsvej 126, 7400 Herning </p>
+                <!--en del af teksten gøres bold-->
+                <p><strong>Hvad:</strong> Alle er velkomne på LOBs fodboldhold. Fra uge 43 rykker fodbold indendøre.</p>
+                <p>Lyder fodbold som lige noget for dig? Så kontakt Allan for mere information.</p>
+                <!--en del af teksten gøres bold-->
+            </div>
+            <div class="sportsgrenmere">
+                <p class="sportsgrenkontaktperson">
+                    <strong>Kontaktperson</strong><!--teksten gøres bold-->
+                    <br>
+                    Allan Thomsen
+                    <br>
+                    Tlf. 41 74 16 79
+                    <br>
+                    Mail ath@jysk.com
+                </p>
+                <div class="sporttilmeld">
+                    <p class="sportkommed"><strong>Bliv en del af foreningen!</strong></p>
+                    <a href="blivmedlem.html" class="sportblivmedlemknap">Bliv medlem</a>
+                </div>
+                <!--Knap der linker til bliv medlem siden-->
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container-footer">
+            <!--Vi laver en container til alle footer elementerne så vi kan sætte flex og wrap på i css-->
+            <div class="itemfooter">
+                <p><strong>Lind Old Boys</strong></p><!--teksten er gjort bold-->
+                <p>Ingridsvej 126</p>
+                <p>7400 Herning</p>
+                <br>
+                <br>
+                <p>Tlf. 97 21 38 40</p>
+                <p><u>mail.lob@gmail.com</u></p>
+                <!--Denne tekst er understreget via tagget u-->
+            </div>
+            <div class="itemfooter">
+                <p><strong>Lind øvrige foreningsliv</strong></p><!--teksten er gjort bold-->
+                <a href="https://www.lindoldgirls.dk">
+                    <p><u>lindoldgirl</u></p>
+                </a><!--Der er indsat link til lind old girls via a href. og så er teksten understreget for at få sammenhæng ml. understregning og tekst (understregningen bliver samme farve)-->
+                <a href="http://www.lindborger.dk">
+                    <p><u>lindborger</u></p>
+                </a>
+                <a href="https://alpihallerne.dk">
+                    <p><u>alpihallerne</u></p>
+                </a>
+                <a href="https://desmaaklinger.dk">
+                    <p><u>desmaaklinger</u></p>
+                </a>
+            </div>
+            <div class="itemfooter">
+                <p><strong>Følg med i hvad der sker på</strong></p><!--teksten er gjort bold-->
+                <a href="nyheder.html">
+                    <p><u>Nyheder</u></p>
+                </a><!--Der er linket til nyheder siden-->
+                <br>
+                <p><strong>Vilkår og betingelser</strong></p><!--teksten er gjort bold-->
+                <a href="vedtaegter.html">
+                    <p><u>Vedtægter</u></p>
+                </a>
+                <a href="privatliv.html">
+                    <p><u>Privatlivspolitik</u></p>
+                </a>
+            </div>
+        </div>
+        <div class="undervisningsformaal">Dette site er kun til undervisningsformål</div>
+        <a href="a.html"><img class="footerlogo" src="img/logo.webp"
+                alt="Logo for Lind Old Boys"></a><!--indsat logo, med link på så når man trykker kommer man til forsiden-->
+    </footer>
+</body>
